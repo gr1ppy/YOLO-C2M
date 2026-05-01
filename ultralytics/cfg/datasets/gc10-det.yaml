@@ -1,4 +1,4 @@
-path: ../GC10-DETF  # Dataset root directory
+path: ../GC10-DET  # Dataset root directory
 train: train/images  # Train images (relative to 'path')
 val: validation/images  # Validation images (relative to 'path')
 
