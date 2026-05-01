@@ -1,0 +1,16 @@
+Ultralytics 8.3.203 🚀 Python-3.12.12 torch-2.10.0+cu128 CUDA:0 (NVIDIA L4, 22563MiB)
+YOLOv8 summary (fused): 72 layers, 3,006,818 parameters, 0 gradients, 8.1 GFLOPs
+val: Fast image access ✅ (ping: 0.0±0.0 ms, read: 677.4±157.0 MB/s, size: 12.5 KB)
+val: Scanning /content/NEU-DET/validation/labels/crazing.cache... 180 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 180/180 433.6Kit/s 0.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 12/12 5.9it/s 2.0s
+                   all        180        420       0.75      0.748      0.804      0.465
+               crazing         30         66      0.457      0.227      0.377      0.159
+             inclusion         37        113      0.822       0.86      0.895      0.454
+               patches         35         82      0.907      0.951       0.98       0.66
+        pitted_surface         30         42       0.85      0.942      0.952      0.642
+       rolled-in_scale         30         64       0.65      0.594      0.658       0.27
+             scratches         30         53      0.815      0.912      0.963      0.607
+Speed: 1.1ms preprocess, 2.2ms inference, 0.0ms loss, 2.9ms postprocess per image
+Results saved to /content/ultralytics/runs/val/val_on_test_run5
+0.46535545892374086
+0.8041836119503047

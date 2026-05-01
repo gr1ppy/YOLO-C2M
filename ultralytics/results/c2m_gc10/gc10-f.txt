@@ -1,0 +1,20 @@
+Ultralytics 8.3.203 🚀 Python-3.12.12 torch-2.10.0+cu128 CUDA:0 (NVIDIA L4, 22563MiB)
+YOLOv8FF4 summary (fused): 123 layers, 1,561,606 parameters, 0 gradients, 4.8 GFLOPs
+val: Fast image access ✅ (ping: 0.0±0.0 ms, read: 2747.7±1613.2 MB/s, size: 428.8 KB)
+val: Scanning /content/GC10-DETF/validation/labels.cache... 230 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 230/230 565.8Kit/s 0.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 15/15 7.1it/s 2.1s
+                   all        230        366       0.76       0.71      0.746      0.356
+         punching_hole         41         41      0.916      0.902      0.906      0.489
+          welding_line         50         50      0.891       0.96      0.937      0.335
+          crescent_gap         34         34      0.918      0.912      0.971      0.587
+            water_spot         28         29      0.789      0.772      0.862      0.531
+              oil_spot         24         53      0.585      0.479      0.553      0.247
+             silk_spot         81        107      0.721      0.505      0.583      0.231
+             inclusion         17         30      0.602      0.303      0.379     0.0844
+            rolled_pit          1          1      0.719          1      0.995      0.316
+                crease          4         11      0.688      0.364      0.409      0.181
+         waist_folding         10         10      0.771        0.9       0.87      0.562
+Speed: 0.6ms preprocess, 2.3ms inference, 0.0ms loss, 1.3ms postprocess per image
+Results saved to /content/ultralytics/runs/val/val_on_test_run7
+0.3563865598340559
+0.746482126511001

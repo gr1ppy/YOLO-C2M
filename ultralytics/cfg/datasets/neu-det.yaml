@@ -1,0 +1,12 @@
+path: ../NEU-DET  # Dataset root directory
+train: train/images  # Train images (relative to 'path')
+val: validation/images  # Validation images (relative to 'path')
+
+# Classes
+names:
+  0: crazing
+  1: inclusion
+  2: patches
+  3: pitted_surface
+  4: rolled-in_scale
+  5: scratches
